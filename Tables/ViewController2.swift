@@ -18,15 +18,18 @@ class ViewController2: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
         showPdf()
     }
+
     
     func showPdf()
     {
         //make 3 steps
         //get pdf path
-        let pdfPath = URL(fileURLWithPath: Bundle.main.path(forResource: pdfNameObtained!, ofType: "pdf", inDirectory: "PDF")!)
+//        let pdfPath = URL(fileURLWithPath:Bundle.main.path(forResource: pdfNameObtained!, ofType: "pdf", inDirectory:"Tables/PDF")!)
+       let pdfPath = URL(fileURLWithPath:"/Users/alegtz/Documents/cursos/ios/unlockPdfViewer/Tables/PDF/pdf1.pdf")
+
+        print(pdfPath)
         
         //transform pdf file to data
         let pdfData = try? Data(contentsOf: pdfPath)
