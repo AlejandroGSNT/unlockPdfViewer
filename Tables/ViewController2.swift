@@ -24,18 +24,15 @@ class ViewController2: UIViewController {
     
     func showPdf()
     {
-        //make 3 steps
         //get pdf path
         let pdfPath = URL(fileURLWithPath:Bundle.main.path(forResource: pdfNameObtained!, ofType: "pdf", inDirectory:"PDF")!)
-//       let pdfPath = URL(fileURLWithPath:"/Users/alegtz/Documents/cursos/ios/unlockPdfViewer/Tables/PDF/pdf3.pdf")
 
-        print(pdfPath)
-        
-        //transform pdf file to data
-        let pdfData = try? Data(contentsOf: pdfPath)
+        let request = URLRequest(url: pdfPath)
         
         //show  data on webkit
-        webView.load(pdfData!, mimeType: "applicaton/pdf", characterEncodingName: "utf-8", baseURL: pdfPath)
+        webView.load(request)
+        
+        
     }
 
 }
