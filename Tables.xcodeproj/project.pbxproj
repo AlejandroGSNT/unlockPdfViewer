@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		710F42751FB0216A0088D396 /* PDF in Resources */ = {isa = PBXBuildFile; fileRef = 710F42741FB0216A0088D396 /* PDF */; };
 		713E0D191FAE669000843B55 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713E0D181FAE669000843B55 /* ViewController2.swift */; };
+		71BE850A1FB0A85800C73B8D /* PDF in Resources */ = {isa = PBXBuildFile; fileRef = 71BE85091FB0A85800C73B8D /* PDF */; };
 		71BFF0491FAE4E1C0009A7F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BFF0481FAE4E1C0009A7F6 /* AppDelegate.swift */; };
 		71BFF04B1FAE4E1C0009A7F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BFF04A1FAE4E1C0009A7F6 /* ViewController.swift */; };
 		71BFF04E1FAE4E1C0009A7F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BFF04C1FAE4E1C0009A7F6 /* Main.storyboard */; };
@@ -17,9 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		710F42741FB0216A0088D396 /* PDF */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PDF; path = Tables/PDF; sourceTree = "<group>"; };
 		7132159C1FAE7BF300246655 /* ProtocolosDelegados.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolosDelegados.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		713E0D181FAE669000843B55 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		71BE85091FB0A85800C73B8D /* PDF */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDF; sourceTree = "<group>"; };
 		71BFF0451FAE4E1C0009A7F6 /* Tables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tables.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BFF0481FAE4E1C0009A7F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71BFF04A1FAE4E1C0009A7F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +43,6 @@
 		71BFF03C1FAE4E1C0009A7F6 = {
 			isa = PBXGroup;
 			children = (
-				710F42741FB0216A0088D396 /* PDF */,
 				71BFF0471FAE4E1C0009A7F6 /* Tables */,
 				71BFF0461FAE4E1C0009A7F6 /* Products */,
 			);
@@ -68,6 +67,7 @@
 				71BFF04F1FAE4E1C0009A7F6 /* Assets.xcassets */,
 				71BFF0511FAE4E1C0009A7F6 /* LaunchScreen.storyboard */,
 				71BFF0541FAE4E1C0009A7F6 /* Info.plist */,
+				71BE85091FB0A85800C73B8D /* PDF */,
 			);
 			path = Tables;
 			sourceTree = "<group>";
@@ -131,8 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				710F42751FB0216A0088D396 /* PDF in Resources */,
 				71BFF0531FAE4E1C0009A7F6 /* LaunchScreen.storyboard in Resources */,
+				71BE850A1FB0A85800C73B8D /* PDF in Resources */,
 				71BFF0501FAE4E1C0009A7F6 /* Assets.xcassets in Resources */,
 				71BFF04E1FAE4E1C0009A7F6 /* Main.storyboard in Resources */,
 			);
@@ -287,7 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88UNSWUQT8;
 				INFOPLIST_FILE = Tables/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alejandrogutierrez.Tables;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,7 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88UNSWUQT8;
 				INFOPLIST_FILE = Tables/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alejandrogutierrez.Tables;
 				PRODUCT_NAME = "$(TARGET_NAME)";

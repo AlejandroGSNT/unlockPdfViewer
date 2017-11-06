@@ -4,7 +4,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    var cellContent = ["PDF1","PDF2","PDF3"]
+    var cellContent = ["pdf1","pdf2","pdf3"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

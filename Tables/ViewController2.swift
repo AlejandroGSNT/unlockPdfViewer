@@ -26,8 +26,8 @@ class ViewController2: UIViewController {
     {
         //make 3 steps
         //get pdf path
-//        let pdfPath = URL(fileURLWithPath:Bundle.main.path(forResource: pdfNameObtained!, ofType: "pdf", inDirectory:"Tables/PDF")!)
-       let pdfPath = URL(fileURLWithPath:"/Users/alegtz/Documents/cursos/ios/unlockPdfViewer/Tables/PDF/pdf1.pdf")
+        let pdfPath = URL(fileURLWithPath:Bundle.main.path(forResource: pdfNameObtained!, ofType: "pdf", inDirectory:"PDF")!)
+//       let pdfPath = URL(fileURLWithPath:"/Users/alegtz/Documents/cursos/ios/unlockPdfViewer/Tables/PDF/pdf3.pdf")
 
         print(pdfPath)
         
@@ -35,7 +35,7 @@ class ViewController2: UIViewController {
         let pdfData = try? Data(contentsOf: pdfPath)
         
         //show  data on webkit
-        webView.load(pdfData!, mimeType: "applicaton/PDF", characterEncodingName: "utf-8", baseURL: pdfPath)
+        webView.load(pdfData!, mimeType: "applicaton/pdf", characterEncodingName: "utf-8", baseURL: pdfPath)
     }
 
 }
